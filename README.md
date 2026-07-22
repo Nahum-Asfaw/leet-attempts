@@ -1,4 +1,4 @@
-#Commit Messages:
+# Commit Messages:
 
 *Attempted* <- Not Complete
 *Added* <- Completed
