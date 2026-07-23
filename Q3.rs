@@ -12,7 +12,7 @@ impl Solution {
         let mut max = 0;
         let mut count = 0;
         
-        while i < string.len() { // O(n)
+        while i < string.len() { // O(n), at most 2*n
             if repeat.contains_key(&string[i]){
                 i = repeat.get(&string[i]).unwrap().clone();
                 i+=1;
